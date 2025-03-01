@@ -13,7 +13,7 @@ public class Main {
         numbers.add(99);
 
         System.out.println("\n-add(int index, E element): Добавляем элементы в список на определенные позиции");
-        numbers.add(2,15);
+        numbers.add(2, 15);
 
         System.out.println("\n-remove(int index): Удаляет элемент на определенной позиции");
         numbers.remove(3);
