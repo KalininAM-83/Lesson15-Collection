@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\nСоздаем новый список");
         List<Integer> numbers = new ArrayList<>();
+
         System.out.println("\nadd(E element): Добавляем элементы в конец списка");
         numbers.add(1);
         numbers.add(8);
