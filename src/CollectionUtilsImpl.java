@@ -10,9 +10,9 @@ public class CollectionUtilsImpl implements CollectionUtils {
         result.addAll(b);
 
 /*      Вариант 2 - создаем пустую коллекцию и отдельно добавляем 2 коллекции
-      Collection<Integer> result = new ArrayList<>();
-      result.addAll(a);
-      result.addAll(b);
+        Collection<Integer> result = new ArrayList<>();
+        result.addAll(a);
+        result.addAll(b);
 */
         return result;
     }
@@ -27,7 +27,6 @@ public class CollectionUtilsImpl implements CollectionUtils {
         return result;
 
 /*      вариант №2: через цикл for-each
-
         Collection<Integer> result = new ArrayList<>();
         for (Integer number : a) {
             if (b.contains(number)) {
@@ -90,9 +89,7 @@ public class CollectionUtilsImpl implements CollectionUtils {
         return resultA;
 
 /*      Вариант №2: через цикл for-each
-
         Collection<Integer> result = new ArrayList<>();
-
         for (Integer number : a) {
             if (!b.contains(number)) {
                 result.add(number);
