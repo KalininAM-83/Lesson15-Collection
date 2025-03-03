@@ -40,7 +40,6 @@ public class CollectionUtilsImpl implements CollectionUtils {
 
     @Override
     public Set<Integer> unionWithoutDuplicate(Collection<Integer> a, Collection<Integer> b) throws NullPointerException {
-
         Set<Integer> result = new LinkedHashSet<>();
         result.addAll(a);
         result.addAll(b);
@@ -50,7 +49,6 @@ public class CollectionUtilsImpl implements CollectionUtils {
 
     @Override
     public Set<Integer> intersectionWithoutDuplicate(Collection<Integer> a, Collection<Integer> b) throws NullPointerException {
-
         Set<Integer> result = new HashSet<>(a);
         result.retainAll(b);
 
