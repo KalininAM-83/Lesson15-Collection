@@ -53,6 +53,26 @@ public class CollectionUtilsImpl implements CollectionUtils {
         result.retainAll(b);
 
         return result;
+
+//        Вариант №2 - через Iterator
+//        Set<Integer> result = new HashSet<>();
+//        Iterator<Integer> iterator = a.iterator();
+//        while (iterator.hasNext()) {
+//            Integer number = iterator.next();
+//            if (b.contains(number)) {
+//                result.add(number);
+//            }
+//        }
+//        return result;
+
+//        Вариант №3 - через цикл for-each
+//        Set<Integer> result = new HashSet<>();
+//        for (Integer number : a) {
+//            if (b.contains(number)) {
+//                result.add(number);
+//            }
+//        }
+//        return result;
     }
 
     @Override
